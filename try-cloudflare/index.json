@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "Instalar `cloudflared`",
+        "title": "Instalar cloudflared",
         "text": "step1.md"
       },
       {
@@ -14,7 +14,7 @@
         "text": "step2.md"
       },
       {
-        "title": "Ejecutar `cloudflared`",
+        "title": "Ejecutar cloudflared",
         "text": "step3.md"
       }
     ],
@@ -29,6 +29,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "python:3.8"
+    "imageid": "ubuntu:2004"
   }
 }
