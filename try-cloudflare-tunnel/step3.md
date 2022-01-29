@@ -1,4 +1,4 @@
-Finalmente podemos ejecutar `cloudflared`.
+Finalmente podemos ejecutar `cloudflared` para compartir el servicio en internet.
 
 ```sh
 cloudflared tunnel --url http://127.0.0.1:8080

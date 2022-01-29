@@ -1,3 +1,0 @@
-(Cloudflare Tunnel)[https://www.cloudflare.com/es-la/products/tunnel/] le brinda una forma segura de conectar sus recursos a Cloudflare sin abrir puertos en su servidor.  Con Tunnel, no envía tráfico a cualquiera en la internet de forma directa; en cambio, un demonio en su servidor (`cloudflared`) crea conexiones salientes a los (_edge servers_)[https://www.cloudflare.com/learning/cdn/glossary/edge-server/] de Cloudflare. Cloudflare Tunnel puede conectar servidores web HTTP, servidores SSH, escritorios remotos y otros protocolos de forma segura a Cloudflare. De esta forma, su servidor puede atender tráfico a través de Cloudflare sin necesidad de una IP enrutable al público.
-
-En este escenario de Katacoda aprenderá a instalar y usar `cloudflared` en Ubuntu.
