@@ -1,0 +1,34 @@
+{
+  "title": "Compartiendo un Sitio Web con Cloudflare Tunnel",
+  "description": "Aprenda a utilizar Cloudflare Tunnel para compartir su sitio web en internet",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Instalar `cloudflared`",
+        "text": "step1.md"
+      },
+      {
+        "title": "Ejecutar un servicio web",
+        "text": "step2.md"
+      },
+      {
+        "title": "Ejecutar `cloudflared`",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "python:3.8"
+  }
+}
